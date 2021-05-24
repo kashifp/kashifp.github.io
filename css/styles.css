@@ -78,6 +78,14 @@ hr {
     margin: auto;
 }
 
+.pen {
+    position: absolute;
+    z-index: -1;
+    right: 20%;
+    top: 95px;
+
+}
+
 .welcome-photo {
     /* border-radius: 20%; */
     width: 100%;
