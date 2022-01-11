@@ -6,8 +6,9 @@ body {
     /* background-image: -webkit-linear-gradient(65deg, rgb(24, 158, 236) 50%, rgb(7, 57, 73) 50%); */
     /* background-image: -webkit-linear-gradient(55deg, rgb(41, 42, 43) 50%,rgb(6, 67, 102) 50%); */
 
-    /* background-image: -webkit-linear-gradient(55deg, rgb(41, 42, 43) 50%,rgb(14, 50, 71) 50%); */
-    background-image: -webkit-linear-gradient(45deg, rgb(41, 42, 43) 50%,rgb(14, 70, 102) 50%);
+    /* prior */
+    /* background-image: -webkit-linear-gradient(45deg, rgb(4, 37, 71) 50%,rgb(14, 70, 102) 50%); */
+    background-image: -webkit-linear-gradient(45deg, rgb(4, 37, 71) 50%,rgb(17, 108, 161) 50%);
     /* rgb(22, 108, 158) */
     text-align: center;
     font-family:Arial, Helvetica, sans-serif;
@@ -104,17 +105,12 @@ hr {
     width: 90%;
     text-align: left;
     padding-bottom: 20px;
-
-    /* backing */
-    /* background-color: rgb(14, 50, 71); */
-    /* background-image: cross-fade(red, black); */
-    /* background-color: rgb(2, 35, 54); */
     padding: 20px;
-    opacity: 85%;
     border-radius: 25px;
-    border-color: white;
-    border: solid;
-    border-width: 3px;
+    border: solid white 1px;
+    background: white;
+    background: linear-gradient(to right bottom, rgba(255,255, 255, 0.6), rgba(255,255, 255, 0.1));
+    box-shadow: 20px 20px 50px rgba(0,0,0, 0.5);
 }
 
 .project {
